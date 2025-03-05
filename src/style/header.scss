@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    overflow-x: hidden
+  }
+  
+  header {
+    width: 100%;
+    height: 180px;
+    font-size: 25px;
+    color: #7E7E7E;
+    position: fixed;
+  
+  
+  }
+  .backhead {
+    background-color: #232323;
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    opacity: 0.5;
+  }
+  
+  .headersod {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+      justify-content: center;
+    align-items: center;
+    position: absolute;
+    }
+    
+    .header-cont {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+    
+    
+    
+    
+    
+    }
+    
+    .cont1 {
+      margin-right: 110px;
+    }
+    
+    .linehead {
+      position: relative;
+      left: -150px;
+      height: 180px;
+    
+    }
+    
+    .imgheader {
+      position: relative;
+      left: -200px;
+      height: 100px;
+      width: 270px;
+    }
+    
+    .smenatemi {
+      margin-left: 20px;
+      width: 50px;
+      height: 50px;
+    }
+    
+    .cont {
+      margin-right: 50px;
+      cursor: pointer;
+    }
+    
+    .cont:hover {
+    color: white;
+  }
+
