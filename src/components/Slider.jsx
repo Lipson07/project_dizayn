@@ -22,7 +22,7 @@ function Slider(){
      
         <div className="slider"> 
          
-         <div className="card">   {images.map((home, index) => (
+         <div className="cardslider">   {images.map((home, index) => (
           <img
             key={index}
             className={homeImage == index ? "imgmain" : "imgmain2"}

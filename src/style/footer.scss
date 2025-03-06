@@ -1,0 +1,14 @@
+.footerdiv{
+
+ display: flex;
+ flex-direction: column;
+}
+.footer{
+    width: 100%;
+    height: 180px;
+    background-color:#232323;
+}
+.footerline{
+    height: 2px;
+    width: 100%;
+}

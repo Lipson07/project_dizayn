@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 .App{
     height: 100%;
@@ -12,9 +13,9 @@
 }
 .slider{
     height: 100vh;
-       overflow: hidden;
+     
 }
-.card{
+.cardslider{
  height: 100%;
  display: flex;
  flex-direction: row;
@@ -25,11 +26,22 @@
     width: 100%;
     height: 100%;
 }
+.imgcard{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
 .imgmain2{
     display: none;
 }
-.rentg{
+.rentg1{
     height: 180px;
+    width: 100%;
+    background-color: #232323;
+
+}
+.rentg{
+    height: 90px;
     width: 100%;
     background-color: #232323;
 }
