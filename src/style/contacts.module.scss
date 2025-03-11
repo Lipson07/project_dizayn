@@ -1,0 +1,110 @@
+.contacts{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #232323;
+    align-items: end;
+}.contacts1{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    align-items: end; 
+}
+
+.contfordiv{
+    display: flex;
+    height: 750px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.block1{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    background-color: #232323;
+ flex-direction: column;
+
+}
+.block12{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    background-color: #ffffff;
+ flex-direction: column;
+ color: black;
+
+}
+.block2{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    background-color: #ffffff;
+}
+.block1img{
+    height: 200px;
+  width: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    img{
+        margin: 5px;
+        z-index: 1;
+    }
+position: absolute;
+left: 450px;
+
+z-index: 2; 
+    overflow: hidden;
+}
+.block1txt{
+    
+    display: flex;
+   overflow: hidden;
+    background-color: #232323;
+    flex-direction: column;
+  position: relative;
+    height: 50%;
+   align-items: center;
+    color: white;
+}
+.block1txt12{
+    display: flex;
+   overflow: hidden;
+    background-color: #ffffff;
+    flex-direction: column;
+  position: relative;
+    height: 50%;
+   align-items: center;
+    color: rgb(0, 0, 0);
+}
+.block1txt1{
+    display: flex;
+    flex-direction: row;
+}
+.block1line{
+    height: 70%;
+    width: 100%;
+    background-color: #f30000;
+}
+.block1txt2{
+    position: absolute;
+   top: 50px;
+    display: flex;
+    height: 500px ;
+    width: 100%;
+    flex-direction: column;
+    z-index: 0;
+    align-items: center;
+    h1{
+        overflow: hidden;
+    }
+    p{
+        margin: 10px;
+        overflow: hidden;
+        font-size: 25px;
+    }
+}
+.p{
+    display: flex;
+    align-items: center;
+}

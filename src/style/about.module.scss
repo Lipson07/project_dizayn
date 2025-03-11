@@ -1,0 +1,258 @@
+
+.about{
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    background-color: #232323;
+    align-items: center;
+    justify-content: center;
+}
+.about1{
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+ height: 800px;
+
+    align-items: center;
+    justify-content: center;
+  
+}
+.containerMini1{
+    display: flex;
+    width: 50vw;
+ height: 800px;
+  
+    align-items: center;
+    justify-content: end;
+  flex-wrap: wrap;
+}
+.containerMini2{
+    display: flex;
+    width: 50vw;
+ height: 800px;
+
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.blockpart{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #FFA435;
+    align-items: end;
+    justify-content: center;
+    margin-right: 50px;
+    color: #ffffff;
+
+    flex-direction: column;
+    text-align: end;
+    
+}
+.block{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    flex-direction: column;
+    color: #ffffff;
+}
+.bl1{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000000;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    flex-direction: column;
+    color: #010101;
+}
+.blockpart1{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #FFA435;
+    align-items: start;
+    justify-content: center;
+    margin-right: 50px;
+    color: #000000;
+
+    flex-direction: column;
+    text-align: end;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    border-radius: 5px;
+
+}
+.block12{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  background-color: #232323;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: white    ;
+}
+.h1block1{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    left: 20px;
+    font-size: 30px;
+    height: 100%;
+}
+.h1block13{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    left: -40px;
+    font-size: 30px;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+.imgblock13{
+    position: relative;
+top: -35px;
+
+    left: -80px;
+
+}
+.pblock1{
+   
+    font-size: 65px;
+}
+.imgblock1{
+    position: relative;
+top: -35px;
+
+    left: 50px;
+
+}
+.h1block12{
+    display: flex;
+ align-items: end;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    left: -20px;
+    font-size: 30px;
+    height: 100%;
+}
+.pblock12{
+   
+    font-size: 65px;
+    position: relative;
+
+}
+
+.imgblock12{
+    position: relative;
+top: -35px;
+
+    left: -80px;
+
+}
+.h1blockpart{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    left: 20px;
+    font-size: 30px;
+    height: 100%;
+    margin-right: 25px;
+}
+.h1blockpart1{
+    position: relative;
+    top: 20px;
+    width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+    font-size: 30px;
+    height: 100%;
+    left: 20px;
+ 
+}
+.blockpartimg{
+    display: flex;
+    width: 350px;   
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    right: -25px;
+    top: -20px;
+}
+.blockpartimg1{
+    display: flex;
+    width: 350px;   
+    height: 300px;
+    align-items: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+
+    top: -20px;
+}
+.blockpartimg img{
+
+    margin: 10px;
+    
+
+}
+.blockpartimg1 img{
+
+    margin: 10px;
+    
+
+}
+.p1block1{
+    width: 200px;
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+}
+.block2 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    position: relative;
+    top: -50px;
+}
+.imgblock3{
+    position: relative;
+  
+    left: 50px;
+    width: 300px;
+    height: 700px;
+}

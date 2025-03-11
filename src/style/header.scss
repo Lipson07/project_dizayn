@@ -12,7 +12,7 @@
     font-size: 25px;
     color: #7E7E7E;
     position: fixed;
-  
+    z-index: 1000;
   
   }
   .backhead {
@@ -37,43 +37,101 @@
       display: flex;
       flex-direction: row;
       position: relative;
+      position: relative;
+        left: -100px;
     
-    
+        h3{
+            margin-left:50px;
+        }
     
     
     
     }
     
     .cont1 {
-      margin-right: 110px;
+      margin-right: 50px;
+      cursor: pointer;
+    }
+    .cont1:hover {
+      color: black;
     }
     
     .linehead {
       position: relative;
-      left: -150px;
+      left: -250px;
       height: 180px;
     
     }
     
     .imgheader {
       position: relative;
-      left: -200px;
+      left: -250px;
       height: 100px;
       width: 270px;
     }
     
     .smenatemi {
       margin-left: 20px;
-      width: 50px;
-      height: 50px;
+      width: 80px;
+        height: 80px;
+    }
+    .lunadiv {
+      margin-left: 20px;
+      width: 80px;
+        height: 80px;
+        overflow: hidden;
+    }
+    .lunadiv:hover {
+      cursor: pointer;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(0%) contrast(119%);
+    }
+    .da{
+      display: none;
     }
     
     .cont {
       margin-right: 50px;
       cursor: pointer;
     }
+    .active{
+      text-decoration: underline;
+      color: white;
+    }
+    .active1{
+      text-decoration: underline;
+     color: black;
+    }
     
     .cont:hover {
     color: white;
   }
+ .smenatemi:hover {
+   animation: rotate-center 1s linear both;
+   color: white;
+   cursor: pointer;
+   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(140%) contrast(119%);
+ }
 
+ @keyframes rotate-center {
+   0% {
+     transform: rotate(0)
+   }
+
+   100% {
+     transform: rotate(-270deg)
+   }
+ }
+ .zv{
+  top: 25px;
+  left: 20px;
+ position: absolute;
+ 
+  z-index: 3;
+}
+.zv1{
+  top: 0px;
+  left: 5px;
+ position: absolute;
+
+  z-index: 3;
+}
